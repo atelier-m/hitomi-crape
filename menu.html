@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Hitomi crepe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+
+  <!-- header -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="index.html" class="site-logo">Hitomi crepe</a>
+
+      <!-- ハンバーガー -->
+      <button class="menu-toggle" type="button" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- ナビ -->
+      <nav class="site-nav" aria-label="メインナビゲーション">
+        <ul class="site-nav__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="access.html">Access</a></li>
+          <li><a href="order.html">Order</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="nav-overlay"></div>
+
+  <main>
+
+    <!-- page hero -->
+    <section class="page-hero">
+      <div class="container">
+        <p class="page-hero__label">Menu</p>
+        <h1 class="page-hero__title">今日の気分で、選ぶ。</h1>
+        <p class="page-hero__text">
+          甘い系も、おかず系も。<br>
+          その日の気分に合わせて、ぴったりのひとつを。
+        </p>
+      </div>
+    </section>
+
+    <!-- category nav -->
+    <section class="menu-category">
+      <div class="container">
+        <div class="category-list">
+          <a href="#highlight">おすすめ</a>
+          <a href="#sweet">甘いクレープ</a>
+          <a href="#savory">おかずクレープ</a>
+          <a href="#drink">ドリンク</a>
+          <a href="#seasonal">期間限定</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- highlight -->
+    <section id="highlight" class="menu-highlight">
+      <div class="container">
+        <h2>まずは、ここから。</h2>
+        <p class="section-lead">
+          迷った時に選びやすい、Hitomi crepeのおすすめ。
+        </p>
+
+        <div class="card-grid">
+          <article class="card">
+  <div class="card__image">
+    <img src="images/menu/banana-choco-cream.jpg" alt="">
+  </div>
+
+  <div class="card__body">
+    <span class="card__badge">人気No.1</span>
+
+    <h3 class="card__title">
+      バナナチョコクリーム
+    </h3>
+
+    <p class="card__text">
+      迷ったらまずこれ。<br>
+      みんなが選ぶ、王道の美味しさ。
+    </p>
+  </div>
+</article>
+
+         <article class="card">
+  <div class="card__image">
+    <img src="images/menu/rarecheese-choco-almond.jpg" alt="レアチーズチョコアーモンド">
+  </div>
+
+  <div class="card__body">
+    <span class="card__badge">店長おすすめ</span>
+
+    <h3 class="card__title">
+      レアチーズチョコアーモンド
+    </h3>
+
+    <p class="card__text">
+      レアチーズのコクと、チョコの甘さ。<br>
+      アーモンドの食感も楽しい、店長おすすめの一品。
+    </p>
+  </div>
+</article>
+
+          <article class="card">
+  <div class="card__image">
+    <img src="images/menu/hanazono-brulee.jpg" alt="花園ブリュレ">
+  </div>
+
+  <div class="card__body">
+    <span class="card__badge">来店限定</span>
+
+    <h3 class="card__title">
+      花園ブリュレ
+    </h3>
+
+    <p class="card__text">
+      パリッと香ばしいブリュレと、なめらかな甘さ。<br>
+      東花園に来た日だけの、ちょっと特別なひとくち。
+    </p>
+  </div>
+</article>
+        </div>
+      </div>
+    </section>
+
+    <!-- sweet -->
+    <section id="sweet" class="menu-section">
+      <div class="container">
+        <h2>Sweet Crepe</h2>
+        <p class="section-lead">
+          定番の甘いクレープから、見た目も気分も上がるご褒美クレープまで。
+        </p>
+
+        <ul class="menu-list">
+          <li>バナナチョコクリーム</li>
+          <li>レアチーズアーモンド</li>
+          <li>カスタードストロベリークリーム</li>
+          <li>いちご生クリーム</li>
+          <li>花園クレープ <span class="menu-note-inline">※来店限定</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- savory -->
+    <section id="savory" class="menu-section">
+      <div class="container">
+        <h2>Savory Crepe</h2>
+        <p class="section-lead">
+          甘いものが苦手な方や、しっかり食べたい時にも嬉しい、おかず系クレープ。
+        </p>
+
+        <ul class="menu-list">
+          <li>照り焼きチキン</li>
+          <li>ツナサラダ</li>
+          <li>ハムチーズ</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- drink -->
+    <section id="drink" class="menu-section">
+      <div class="container">
+        <h2>Drink</h2>
+        <p class="section-lead">
+          クレープと一緒に楽しみたい、タピオカミルクティーや黒糖ミルクティーもご用意しています。
+        </p>
+
+        <ul class="menu-list">
+          <li>タピオカミルクティー</li>
+          <li>黒糖ミルクティー</li>
+          <li>その他ドリンク</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- seasonal -->
+    <section id="seasonal" class="menu-section menu-section--soft">
+      <div class="container">
+        <h2>Seasonal Menu</h2>
+        <p class="section-lead">
+          その時だけの楽しみも、Hitomi crepeの魅力。<br>
+          期間限定メニューは、NewsやInstagramでもご案内します。
+        </p>
+
+        <a href="#" class="section-btn">最新情報を見る</a>
+      </div>
+    </section>
+
+    <!-- note -->
+    <section class="menu-note">
+      <div class="container">
+        <h2>ご注文前にご確認ください</h2>
+        <p>
+          一部商品はデリバリー対象外です。<br>
+          店頭のみご注文いただける商品もございます。<br>
+          詳しくは各サービス内の表示、または注文案内ページをご確認ください。
+        </p>
+      </div>
+    </section>
+
+    <!-- final cta -->
+    <section class="final-cta">
+      <div class="container">
+        <p>決まったら、あとは行くだけ。</p>
+
+        <div class="cta-links">
+          <a href="access.html">今すぐ行く</a>
+          <a href="order.html">持ち帰る</a>
+          <a href="order.html">デリバリーする</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <a href="index.html" class="site-footer__logo">Hitomi crepe</a>
+
+      <nav class="footer-nav" aria-label="フッターナビゲーション">
+        <ul class="footer-nav__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="access.html">Access</a></li>
+          <li><a href="order.html">Order</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-footer__links">
+        <a href="#">Instagram</a>
+        <a href="#">Uber Eats</a>
+        <a href="#">出前館</a>
+      </div>
+
+      <p class="site-footer__copy">&copy; Hitomi crepe</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
